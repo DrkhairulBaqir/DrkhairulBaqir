@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest"
+      ]
+    },
+    "glyph": {
+      "type": "stdio",
+      "command": "glyph",
+      "args": [
+        "mcp"
+      ]
+    },
+    "kinocut": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "kinocut==1.16.5"
+      ]
+    },
+    "duckduckgo": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "duckduckgo-mcp-server"
+      ]
+    },
+    "fetch": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ]
+    }
+  }
+}
